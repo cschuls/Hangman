@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="Hangman">
+    <file>images/Hangman_0.png</file>
+    <file>images/Hangman_1.png</file>
+    <file>images/Hangman_2.png</file>
+    <file>images/Hangman_3.png</file>
+    <file>images/Hangman_4.png</file>
+    <file>images/Hangman_5.png</file>
+    <file>images/Hangman_6.png</file>
+    <file>images/Hangman_Title.png</file>
+  </gresource>
+</gresources>
