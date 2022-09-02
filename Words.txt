@@ -62,7 +62,6 @@ develop
 patient
 diagram
 peer
-disappointed
 persuade
 division
 pleasant
