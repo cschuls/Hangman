@@ -319,9 +319,10 @@ static void activate (GtkApplication *app, gpointer user_data)
     gtk_grid_attach(GTK_GRID (grid5), button_z, 1, 0, 1, 1);
     gtk_grid_attach(GTK_GRID (grid5), button_x, 2, 0, 1, 1);
     gtk_grid_attach(GTK_GRID (grid5), button_c, 3, 0, 1, 1);
-    gtk_grid_attach(GTK_GRID (grid5), button_b, 4, 0, 1, 1);
-    gtk_grid_attach(GTK_GRID (grid5), button_n, 5, 0, 1, 1);
-    gtk_grid_attach(GTK_GRID (grid5), button_m, 6, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID (grid5), button_v, 4, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID (grid5), button_b, 5, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID (grid5), button_n, 6, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID (grid5), button_m, 7, 0, 1, 1);
     gtk_grid_attach(GTK_GRID (grid7), spacer_5, 0, 0, 1, 1);
     gtk_grid_attach(GTK_GRID (grid8), used, 0, 0, 1, 1);
 
