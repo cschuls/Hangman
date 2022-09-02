@@ -1,0 +1,6 @@
+#!/bin/bash
+
+glib-compile-resources --target=images.c --generate-source resource.xml
+
+gcc -Wno-format -o Hangman main.c images.c  -I/usr/include/glib-3.0 `pkg-config --cflags --libs gtk+-3.0`
+
