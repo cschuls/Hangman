@@ -416,10 +416,8 @@ static void display_dialog (gchar* message)
     GtkWidget *dialog;
 
     dialog = gtk_message_dialog_new(NULL, GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_INFO, GTK_BUTTONS_CLOSE, "%s", message);
-    //g_signal_connect_swapped (dialog, "response", G_CALLBACK (gtk_widget_destroy), dialog);   /* GTK4 */
-    //gtk_widget_show_all (dialog);                                                             /* GTK4 */
-    gtk_dialog_run(GTK_DIALOG (dialog));                                                        /* GTK3 */
-    gtk_widget_destroy(dialog);                                                                 /* GTK3 */
+    gtk_dialog_run(GTK_DIALOG (dialog));
+    gtk_widget_destroy(dialog);
 }
 
 void make_guess(struct hang_data * guess_data)
