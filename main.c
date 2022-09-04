@@ -331,7 +331,7 @@ static void activate (GtkApplication *app, gpointer user_data)
     gtk_button_set_always_show_image(GTK_BUTTON(menubutton), TRUE);
     gtk_button_set_image_position(GTK_BUTTON(menubutton), GTK_POS_RIGHT);
 
-    g_menu_append(menumodel, "New", "app.new");
+    g_menu_append(menumodel, "New Game", "app.new");
     g_menu_append(menumodel, "Quit", "app.quit");
 
     gtk_menu_button_set_menu_model (GTK_MENU_BUTTON (menubutton), G_MENU_MODEL (menumodel));
