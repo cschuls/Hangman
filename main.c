@@ -502,7 +502,7 @@ void make_guess(struct hang_data * guess_data)
     else
     {
         gtk_label_set_text(GTK_LABEL(guess_data->lbl), guess_data->the_word);
-        gtk_image_set_from_file(GTK_IMAGE(guess_data->img), "/home/craig/C_Programs/GTK_Projects/Hangman/images/Hangman_6.png");
+        gtk_image_set_from_resource(GTK_IMAGE(guess_data->img), "/Hangman/images/Hangman_6.png");
         guess_data->won_loss = -1;
         display_dialog("Sorry! - You lost\nSelect \"New Game\" to play again");
     }
